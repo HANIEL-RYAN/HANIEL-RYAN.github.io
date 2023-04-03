@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign in</title>
+    <style>
+body{
+    background-image:linear-gradient(to right,black,blue);
+}
+
+div{
+    border:2px solid red;
+    height:500px;
+    width:400px;
+    margin-top:60px;
+    background-color:white;
+} p{
+    margin-left:350px;
+    margin-top:0;
+    cursor:pointer;
+}
+.type-1{
+    display:block;
+margin:20px;
+    font-size:20px;
+}
+.a-1{
+    text-decoration:none;
+    margin-right:250px;
+    margin-top:40px;
+}
+.button-1{
+    background-color:green;
+    border-radius:20px ;
+    border:none;
+    font-size:28px;
+    width:160px;
+    margin-top:60px;
+    margin-left:200px;
+    cursor:pointer;
+    color:white;
+transition:0.6s;
+}
+.button-1:hover{
+    transform:scale(1.2);
+}
+.button-1:active{
+    opacity:0.6;
+}
+    </style>
+</head>
+<body>
+    
+<center>
+    <div id="div1"><b><P id="p1"   onclick="visibility('div1','none')">x</P></b>
+    <h1>SIGN IN</h1>
+    <input type="text" class="type-1" placeholder="Enter your email">
+    <input type="text" class="type-1" placeholder="Enter your password">
+    <input type="text" class="type-1" placeholder="Enter your username">
+    
+    <a class="a-1" href="#">forgot password</a>
+
+    <button class="button-1">Next</button>
+    <script src="fifty.js"></script>
+    </div>
+</center>
+</body>
+</html>
